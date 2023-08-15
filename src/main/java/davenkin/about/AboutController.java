@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.env.Environment;
 import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,9 +15,10 @@ import static java.time.ZonedDateTime.now;
 
 @Slf4j
 @Validated
+@CrossOrigin
 @RestController
-@RequestMapping(value = "/about")
 @RequiredArgsConstructor
+@RequestMapping(value = "/about")
 public class AboutController {
     private final ZonedDateTime deployTime = now();
     private final Environment environment;
