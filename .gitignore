@@ -1,16 +1,12 @@
 target
 .idea/
+/tmp/
 *.iml
 *.ipr
 *.iws
 build
 out
 .gradle
-tmp.json
-tmp.xml
-tmp.md
-tmp.py
-tmp.txt
 *.log
 .shelf
 *.retry

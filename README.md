@@ -1,6 +1,15 @@
 # Introduction
 - This is a simple spring boot project template with merely an about controller
 
+# Tech stack
+- Java 17
+- Springboot 3
+- Junit 5
+- Mockito
+- Lombok
+- Jackson
+- Guava
+
 # Usages
 1. Make sure you have Java 17+ installed
 2. Run `./idea.sh` to open the project in IntelliJ IDEA
